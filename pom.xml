@@ -17,6 +17,14 @@
     <url>http://www.example.com</url>
     <modules>
         <module>sprintboot-templete</module>
+
+        <module>ddd-application</module>
+        <module>ddd-biz</module>
+        <module>ddd-user</module>
+        <module>ddd-goods</module>
+        <module>ddd-infrastructure</module>
+        <module>ddd-common</module>
+        <module>ddd-provider</module>
     </modules>
 
     <properties>
