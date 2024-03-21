@@ -10,10 +10,10 @@
 
 
 
-    <bean id="bizService2" class="com.alibaba.xiudao.service.BizService2" init-method="init"/>
+    <bean id="bizService2" class="com.xiudao.service.BizService2" init-method="init"/>
 
     <!--<aop:config>-->
-    <!--<aop:pointcut id="pointcut" expression="execution(* com.alibaba.xiudao.bo.IfaceImpl.*(..))"/>-->
+    <!--<aop:pointcut id="pointcut" expression="execution(* com.xiudao.bo.IfaceImpl.*(..))"/>-->
     <!--&lt;!&ndash;        执行环绕增加&ndash;&gt;-->
     <!--<aop:advisor advice-ref="aa" pointcut-ref="pointcut"/>-->
     <!--</aop:config>-->

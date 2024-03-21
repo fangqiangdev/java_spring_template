@@ -1,8 +1,6 @@
-package com.alibaba.xiudao.service;
+package com.xiudao.service;
 
 import javax.annotation.PostConstruct;
-
-import com.alibaba.xiudao.aspect.MyAspect;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

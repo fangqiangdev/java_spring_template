@@ -1,4 +1,4 @@
-package com.alibaba.xiudao.aspect;
+package com.xiudao.aspect;
 
 import org.aopalliance.aop.Advice;
 import org.aopalliance.intercept.MethodInterceptor;

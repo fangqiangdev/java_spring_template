@@ -1,13 +1,11 @@
-package com.alibaba.xiudao.config;
+package com.xiudao.config;
 
-import com.alibaba.xiudao.service.BizService1;
-import com.alibaba.xiudao.service.BizService2;
-import com.alibaba.xiudao.service.BizService3;
+import com.xiudao.service.BizService2;
+import com.xiudao.service.BizService3;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.DependsOn;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**

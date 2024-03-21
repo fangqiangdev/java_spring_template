@@ -1,21 +1,26 @@
-package com.alibaba.xiudao.service;
+package com.xiudao.service;
 
 import javax.annotation.PostConstruct;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.xiudao.service.intf.BizService;
+
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
 /**
  * @author xiudao
  * @date 2022/12/13
  */
-public class BizService2 {
-
+@Service
+@DependsOn("bizService2")
+public class BizService1  implements BizService {
+    @PostConstruct
     public void init(){
         System.out.println("init " + this.getClass().getSimpleName());
     }
 
-    public void run2(){
+    @Override
+    public void run(){
         System.out.println("run " + this.getClass().getSimpleName());
     }
 }

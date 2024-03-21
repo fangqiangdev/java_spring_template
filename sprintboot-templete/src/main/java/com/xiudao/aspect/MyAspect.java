@@ -1,4 +1,4 @@
-package com.alibaba.xiudao.aspect;
+package com.xiudao.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyAspect {
 
-    @Around("execution(* com.alibaba.xiudao.service.BizService2.run2(..))")
+    @Around("execution(* com.xiudao.service.BizService2.run2(..))")
     public void aspect(ProceedingJoinPoint joinPoint) throws Throwable{
         System.out.println("方法调用前");
         joinPoint.proceed();

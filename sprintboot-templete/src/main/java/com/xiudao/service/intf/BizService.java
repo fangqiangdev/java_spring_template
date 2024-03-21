@@ -1,4 +1,4 @@
-package com.alibaba.xiudao.service.intf;
+package com.xiudao.service.intf;
 
 /**
  * @author xiudao
